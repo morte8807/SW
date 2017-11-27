@@ -1,0 +1,247 @@
+[
+    {
+      "name": "wall",
+      "cost": null,
+      "av": null,
+      "hp": 9,
+      "damage": 0,
+      "skill": null,
+      "position": {"x": 3 , "y": 2},
+      "zone": "board"
+    },
+    {
+      "name": "wall",
+      "cost": null,
+      "av": null,
+      "hp": 9,
+      "damage": 0,
+      "skill": null,
+      "position": null,
+      "zone": "deck"
+    },
+    {
+      "name": "wall",
+      "cost": null,
+      "av": null,
+      "hp": 9,
+      "damage": 0,
+      "skill": null,
+      "position": null,
+      "zone": "deck"
+    },
+
+    {
+      "name": "controller",
+      "cost": 2,
+      "av": 2,
+      "hp": 1,
+      "damage": 0,
+      "skill": "forcePush",
+      "ranged": true,
+      "position": {"x": 0 , "y": 0},
+      "zone": "board"
+    },
+    {
+      "name": "controller",
+      "cost": 2,
+      "av": 2,
+      "hp": 1,
+      "damage": 0,
+      "skill": "forcePush",
+      "ranged": true,
+      "position": {"x": 3 , "y": 1},
+      "zone": "board"
+    },
+    {
+      "name": "controller",
+      "cost": 2,
+      "av": 2,
+      "hp": 1,
+      "damage": 0,
+      "skill": "forcePush",
+      "ranged": true,
+      "position": null,
+      "zone": "deck"
+    },
+    {
+      "name": "controller",
+      "cost": 2,
+      "av": 2,
+      "hp": 1,
+      "damage": 0,
+      "skill": "forcePush",
+      "ranged": true,
+      "position": null,
+      "zone": "deck"
+    },
+    {
+      "name": "controller",
+      "cost": 2,
+      "av": 2,
+      "hp": 1,
+      "damage": 0,
+      "skill": "forcePush",
+      "ranged": true,
+      "position": null,
+      "zone": "deck"
+    },
+    {
+      "name": "controller",
+      "cost": 2,
+      "av": 2,
+      "hp": 1,
+      "damage": 0,
+      "skill": "forcePush",
+      "ranged": true,
+      "position": null,
+      "zone": "deck"
+    },
+    {
+      "name": "tacullu",
+      "cost": null,
+      "av": 2,
+      "hp": 5,
+      "damage": 0,
+      "skill": "unsummon",
+      "ranged": true,
+      "position": {"x": 3 , "y": 0},
+      "zone": "board"
+    },
+
+
+    {
+      "name": "deceiver",
+      "cost": 1,
+      "av": 1,
+      "hp": 1,
+      "damage": 0,
+      "skill": "stun",
+      "ranged": true,
+      "position": {"x": 4 , "y": 1},
+      "zone": "board"
+    },
+    {
+      "name": "deceiver",
+      "cost": 1,
+      "av": 1,
+      "hp": 1,
+      "damage": 0,
+      "skill": "stun",
+      "ranged": true,
+      "position": {"x": 2 , "y": 0},
+      "zone": "board"
+    },
+    {
+      "name": "deceiver",
+      "cost": 1,
+      "av": 1,
+      "hp": 1,
+      "damage": 0,
+      "skill": "stun",
+      "ranged": true,
+      "position": null,
+      "zone": "deck"
+    },
+    {
+      "name": "deceiver",
+      "cost": 1,
+      "av": 1,
+      "hp": 1,
+      "damage": 0,
+      "skill": "stun",
+      "ranged": true,
+      "position": null,
+      "zone": "deck"
+    },
+    {
+      "name": "deceiver",
+      "cost": 1,
+      "av": 1,
+      "hp": 1,
+      "damage": 0,
+      "skill": "stun",
+      "ranged": true,
+      "position": null,
+      "zone": "deck"
+    },
+    {
+      "name": "deceiver",
+      "cost": 1,
+      "av": 1,
+      "hp": 1,
+      "damage": 0,
+      "skill": "stun",
+      "ranged": true,
+      "position": null,
+      "zone": "deck"
+    },
+    {
+      "name": "deceiver",
+      "cost": 1,
+      "av": 1,
+      "hp": 1,
+      "damage": 0,
+      "skill": "stun",
+      "ranged": true,
+      "position": null,
+      "zone": "deck"
+    },
+
+
+
+    {
+      "name": "breaker",
+      "cost": 2,
+      "av": 1,
+      "hp": 1,
+      "damage": 0,
+      "skill": "mind break",
+      "ranged": true,
+      "position": null,
+      "zone": "deck"
+    },
+    {
+      "name": "breaker",
+      "cost": 2,
+      "av": 1,
+      "hp": 1,
+      "damage": 0,
+      "skill": "mind break",
+      "ranged": true,
+      "position": null,
+      "zone": "deck"
+    },
+    {
+      "name": "breaker",
+      "cost": 2,
+      "av": 1,
+      "hp": 1,
+      "damage": 0,
+      "skill": "mind break",
+      "ranged": true,
+      "position": null,
+      "zone": "deck"
+    },
+    {
+      "name": "breaker",
+      "cost": 2,
+      "av": 1,
+      "hp": 1,
+      "damage": 0,
+      "skill": "mind break",
+      "ranged": true,
+      "position": null,
+      "zone": "deck"
+    },
+    {
+      "name": "breaker",
+      "cost": 2,
+      "av": 1,
+      "hp": 1,
+      "damage": 0,
+      "skill": "mind break",
+      "ranged": true,
+      "position": null,
+      "zone": "deck"
+    }
+]

@@ -1,0 +1,115 @@
+{
+  "0": {
+    "0": {
+      "name": ""
+    },
+    "1": {
+      "name": ""
+    },
+    "2": {
+      "name": ""
+    },
+    "3": {
+      "name": "controller",
+      "cost": 2,
+      "av": 2,
+      "hp": 1,
+      "skill": "forcePush",
+      "ranged": true
+    }
+  },
+  "1": {
+    "0": {
+      "name": ""
+    },
+    "1": {
+      "name": ""
+    },
+    "2": {
+      "name": ""
+    },
+    "3": {
+      "name": ""
+    }
+  },
+  "2": {
+    "0": {
+      "name": ""
+    },
+    "1": {
+      "name": ""
+    },
+    "2": {
+      "name": ""
+    },
+    "3": {
+      "name": "deceiver",
+      "cost": 1,
+      "av": 1,
+      "hp": 1,
+      "skill": "stun",
+      "ranged": true
+    }
+  },
+  "3": {
+    "0": {
+      "name": ""
+    },
+    "1": {
+      "name": "wall",
+      "cost": null,
+      "av": null,
+      "hp": 9,
+      "skill": null
+    },
+    "2": {
+      "name": "controller",
+      "cost": 2,
+      "av": 2,
+      "hp": 1,
+      "skill": "forcePush",
+      "ranged": true
+    },
+    "3": {
+      "name": "tacullu",
+      "cost": null,
+      "av": 2,
+      "hp": 5,
+      "skill": "unsummon",
+      "ranged": true
+    }
+  },
+  "4": {
+    "0": {
+      "name": ""
+    },
+    "1": {
+      "name": ""
+    },
+    "2": {
+      "name": "deceiver",
+      "cost": 1,
+      "av": 1,
+      "hp": 1,
+      "skill": "stun",
+      "ranged": true
+    },
+    "3": {
+      "name": ""
+    }
+  },
+  "5": {
+    "0": {
+      "name": ""
+    },
+    "1": {
+      "name": ""
+    },
+    "2": {
+      "name": ""
+    },
+    "3": {
+      "name": ""
+    }
+  }
+}
