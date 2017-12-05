@@ -1,6 +1,7 @@
 <<template>
   <div class="container">
     <div class="deck" @click="draw">
+      {{ collectionLength }}
       <img v-if="collectionLength > 0" :src="imageHelper.getImage('Benders.jpg')" />
     </div>
   </div>

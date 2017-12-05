@@ -1,5 +1,6 @@
 [
     {
+      "faction": "Benders",
       "name": "wall",
       "cost": null,
       "av": null,
@@ -10,6 +11,7 @@
       "zone": "board"
     },
     {
+      "faction": "Benders",
       "name": "wall",
       "cost": null,
       "av": null,
@@ -20,6 +22,7 @@
       "zone": "deck"
     },
     {
+      "faction": "Benders",
       "name": "wall",
       "cost": null,
       "av": null,
@@ -31,6 +34,7 @@
     },
 
     {
+      "faction": "Benders",
       "name": "controller",
       "cost": 2,
       "av": 2,
@@ -42,6 +46,7 @@
       "zone": "board"
     },
     {
+      "faction": "Benders",
       "name": "controller",
       "cost": 2,
       "av": 2,
@@ -53,6 +58,7 @@
       "zone": "board"
     },
     {
+      "faction": "Benders",
       "name": "controller",
       "cost": 2,
       "av": 2,
@@ -64,6 +70,7 @@
       "zone": "deck"
     },
     {
+      "faction": "Benders",
       "name": "controller",
       "cost": 2,
       "av": 2,
@@ -75,6 +82,7 @@
       "zone": "deck"
     },
     {
+      "faction": "Benders",
       "name": "controller",
       "cost": 2,
       "av": 2,
@@ -86,6 +94,7 @@
       "zone": "deck"
     },
     {
+      "faction": "Benders",
       "name": "controller",
       "cost": 2,
       "av": 2,
@@ -97,6 +106,7 @@
       "zone": "deck"
     },
     {
+      "faction": "Benders",
       "name": "tacullu",
       "cost": null,
       "av": 2,
@@ -110,6 +120,7 @@
 
 
     {
+      "faction": "Benders",
       "name": "deceiver",
       "cost": 1,
       "av": 1,
@@ -121,6 +132,7 @@
       "zone": "board"
     },
     {
+      "faction": "Benders",
       "name": "deceiver",
       "cost": 1,
       "av": 1,
@@ -132,6 +144,7 @@
       "zone": "board"
     },
     {
+      "faction": "Benders",
       "name": "deceiver",
       "cost": 1,
       "av": 1,
@@ -143,6 +156,7 @@
       "zone": "deck"
     },
     {
+      "faction": "Benders",
       "name": "deceiver",
       "cost": 1,
       "av": 1,
@@ -154,6 +168,7 @@
       "zone": "deck"
     },
     {
+      "faction": "Benders",
       "name": "deceiver",
       "cost": 1,
       "av": 1,
@@ -165,6 +180,7 @@
       "zone": "deck"
     },
     {
+      "faction": "Benders",
       "name": "deceiver",
       "cost": 1,
       "av": 1,
@@ -176,6 +192,7 @@
       "zone": "deck"
     },
     {
+      "faction": "Benders",
       "name": "deceiver",
       "cost": 1,
       "av": 1,
@@ -190,6 +207,7 @@
 
 
     {
+      "faction": "Benders",
       "name": "breaker",
       "cost": 2,
       "av": 1,
@@ -201,6 +219,7 @@
       "zone": "deck"
     },
     {
+      "faction": "Benders",
       "name": "breaker",
       "cost": 2,
       "av": 1,
@@ -212,6 +231,7 @@
       "zone": "deck"
     },
     {
+      "faction": "Benders",
       "name": "breaker",
       "cost": 2,
       "av": 1,
@@ -223,6 +243,7 @@
       "zone": "deck"
     },
     {
+      "faction": "Benders",
       "name": "breaker",
       "cost": 2,
       "av": 1,
@@ -234,6 +255,7 @@
       "zone": "deck"
     },
     {
+      "faction": "Benders",
       "name": "breaker",
       "cost": 2,
       "av": 1,
@@ -241,6 +263,164 @@
       "damage": 0,
       "skill": "mind break",
       "ranged": true,
+      "position": null,
+      "zone": "deck"
+    },
+
+    {
+      "faction": "Benders",
+      "name": "gulldune",
+      "cost": 5,
+      "av": 2,
+      "hp": 4,
+      "damage": 0,
+      "skill": "mind capture",
+      "ranged": true,
+      "position": null,
+      "zone": "deck"
+    },
+    {
+      "faction": "Benders",
+      "name": "sorgwen",
+      "cost": 5,
+      "av": 3,
+      "hp": 3,
+      "damage": 0,
+      "skill": "telepathic command",
+      "ranged": true,
+      "position": null,
+      "zone": "deck"
+    },
+    {
+      "faction": "Benders",
+      "name": "kalal",
+      "cost": 7,
+      "av": 3,
+      "hp": 5,
+      "damage": 0,
+      "skill": "glimpse the future",
+      "ranged": true,
+      "position": null,
+      "zone": "deck"
+    },
+
+
+
+
+    {
+      "faction": "Benders",
+      "name": "aHeroIsBorn",
+      "event": true,
+      "cost": 0,
+      "av": 0,
+      "hp": 0,
+      "damage": 0,
+      "skill": "a hero is born",
+      "ranged": null,
+      "position": null,
+      "zone": "deck"
+    },
+    {
+      "faction": "Benders",
+      "name": "magicDrain",
+      "event": true,
+      "cost": 0,
+      "av": 0,
+      "hp": 0,
+      "damage": 0,
+      "skill": "magic drain",
+      "ranged": null,
+      "position": null,
+      "zone": "deck"
+    },
+    {
+      "faction": "Benders",
+      "name": "magicDrain",
+      "event": true,
+      "cost": 0,
+      "av": 0,
+      "hp": 0,
+      "damage": 0,
+      "skill": "magic drain",
+      "ranged": null,
+      "position": null,
+      "zone": "deck"
+    },
+    {
+      "faction": "Benders",
+      "name": "mindControl",
+      "event": true,
+      "cost": 0,
+      "av": 0,
+      "hp": 0,
+      "damage": 0,
+      "skill": "mind control",
+      "ranged": null,
+      "position": null,
+      "zone": "deck"
+    },
+    {
+      "faction": "Benders",
+      "name": "mindControl",
+      "event": true,
+      "cost": 0,
+      "av": 0,
+      "hp": 0,
+      "damage": 0,
+      "skill": "mind control",
+      "ranged": null,
+      "position": null,
+      "zone": "deck"
+    },
+    {
+      "faction": "Benders",
+      "name": "mindControl",
+      "event": true,
+      "cost": 0,
+      "av": 0,
+      "hp": 0,
+      "damage": 0,
+      "skill": "mind control",
+      "ranged": null,
+      "position": null,
+      "zone": "deck"
+    },
+    {
+      "faction": "Benders",
+      "name": "mimic",
+      "event": true,
+      "cost": 0,
+      "av": 0,
+      "hp": 0,
+      "damage": 0,
+      "skill": "mimic",
+      "ranged": null,
+      "position": null,
+      "zone": "deck"
+    },
+    {
+      "faction": "Benders",
+      "name": "mimic",
+      "event": true,
+      "cost": 0,
+      "av": 0,
+      "hp": 0,
+      "damage": 0,
+      "skill": "mimic",
+      "ranged": null,
+      "position": null,
+      "zone": "deck"
+    },
+    {
+      "faction": "Benders",
+      "name": "mimic",
+      "event": true,
+      "cost": 0,
+      "av": 0,
+      "hp": 0,
+      "damage": 0,
+      "skill": "mimic",
+      "ranged": null,
       "position": null,
       "zone": "deck"
     }

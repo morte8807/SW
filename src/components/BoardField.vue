@@ -5,7 +5,7 @@
             <div class="damageContainer">
                 <div v-for="point in card.damage" class="damageCounter">1</div>
             </div>
-            <img :src="imageHelper.getImage(`Benders/${card.name}.jpg`)" 
+            <img :src="imageHelper.getImage(`${card.faction}/${card.name}.jpg`)" 
                 style="width: 100%; height: 100%;" />
         </div>
     </div>

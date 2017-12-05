@@ -14,7 +14,6 @@
 
 <script>
 import Sortable from 'sortablejs';
-import Isomer from 'isomer';
 
 export default {
   name: 'units',

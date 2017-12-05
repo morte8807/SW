@@ -6,7 +6,7 @@
                 <BoardField :class="[markActiveCard(coords.x, coords.y) ? 'marked' : '',
                                       markLegalMovement(coords.x, coords.y) ? 'legal' : '']" 
                             :position="coords" 
-                            :card="findCard(coords, 'board', cardsOnBoard)"
+                            :card="findCard(coords)"
                             @pickCard="pickCard" 
                             @pickEmpty="pickEmpty"
                 >
@@ -186,7 +186,7 @@ export default {
 
         findCard(position, zone, array) {
             let zoneToSearch = zone || 'board';
-            let collection = array ||  this.playerDeck;
+            let collection = array ||  this.cardsOnBoard;
 
             for (let card of collection) {
 
@@ -298,6 +298,12 @@ export default {
                 return;
             }
 
+            if (this.cardToPlay && this.eventPhase && this.cardToPlay.hasOwnProperty('event')) {
+                console.log('ZAGRYWAM EVENTA');
+                this.cardToPlay = null;
+                return;
+            }
+
             //zagrywam jednostkę z ręki
             if (
                 this.summonPhase &&
@@ -366,7 +372,6 @@ export default {
             if (this.activeUnit && this.movementPhase) {
                 for (let direction in this.avaliableMovements) {
                     for (let pos of this.avaliableMovements[direction]) {
-                        // let posX = this.avaliableMovements[direction][pos];
                         if (pos.x == x && pos.y == y) {
                             return true;
                         }
@@ -378,8 +383,9 @@ export default {
         },
 
         coordsInBoard(coords) {
-          if (coords.x < 1 || coords.x > this.maxRows - 1 ||
-              coords.y < 1 || coords.y > this.maxColumns - 1) {
+          if (coords.x < 0 || coords.x > this.maxRows - 1 ||
+              coords.y < 0 || coords.y > this.maxColumns - 1 ||
+              (coords.x == 0 && coords.y == 0 )) {
               return false;
           }
           return true;
@@ -390,10 +396,7 @@ export default {
           let bottomCoords = {x: x, y: y - 1};
           let leftCoords = {x: x  - 1, y: y};
           let rightCoords = {x: x + 1, y: y};
-          console.log(topCoords);
-          console.log(bottomCoords);
-          console.log(leftCoords);
-          console.log(rightCoords);
+
           if (!this.findCoordsInArray(topCoords, result.top) &&
           this.coordsInBoard(topCoords)) {
             result.top.push(topCoords);
@@ -421,7 +424,6 @@ export default {
             let result = {top: [], left: [], right: [], bottom: []};
 
             while (currentRange < range) {
-              // console.log(currentRange);
               this.calculateNeihgbours(currentX, currentY + currentRange, result);
               this.calculateNeihgbours(currentX, currentY - currentRange, result);
               this.calculateNeihgbours(currentX - currentRange, currentY, result);
@@ -429,32 +431,13 @@ export default {
               currentRange++;
             }
 
-            console.log(result.top);
-
-
-            for (let name in result) {
-              // memory leak
-              // if (!result.hasOwnProperty(name)) {
-              //   continue;
-              // }
-              //   for (let coords of result[name]) {
-              //       let modX = currentX + coords.x;
-              //       let modY = currentY + coords.y;
-
-              //       if (modX >= 0 && modX < this.maxRows &&
-              //           modY >= 0 && modY < this.maxColumns) {
-              //           result[name].push({ x: modX, y: modY });
-              //       }
-              //   }
+            for (let blockedDirection in this.nearCards) {
+                for (let avaliableDirection in result) {
+                    if (avaliableDirection === blockedDirection) {
+                        delete result[avaliableDirection];
+                    }
+                }
             }
-
-            // for (let blockedDirection in this.nearCards) {
-            //     for (let avaliableDirection in result) {
-            //         if (avaliableDirection === blockedDirection) {
-            //             delete result[avaliableDirection];
-            //         }
-            //     }
-            // }
             return result;
         }
     },
